@@ -1,0 +1,60 @@
+theme = "showfolio-hugo-theme"
+languageCode = "en-us"
+baseurl = "https://verbatim.studio"
+title = "Verbatim.Studio"
+
+
+[params]
+  name = "Verbatim.Studio"
+  description = ""
+  author = "verbatimstudio"
+  authorEmail = "verbatimstudiosnz@gmail.com"
+  authorImage = "/avatar.png"
+  autoDarkMode = true
+
+  copyright = "Copyright © 2021 - verbatim.studio · All rights reserved"
+  favicon = "favicon.ico"
+
+[params.homepage]
+  title = "Hey 👋 I'm Seth"
+  tagline = "Verbatim.Studio"
+  description = "Freelance Videographer & Computer Science Student based in New Zealand"
+  contact = "https://twitter.com/DepressoHub"
+
+# [params.homepage.codepen]
+#  username = ""
+#  pens = ["MQaRKL", "RxodrP", "BmXGdm", "wdVypQ"]
+
+[params.homepage.resume]
+  skills = ["Broadcast Directing (Live Events)", "Gimbal Operator", "Work From Home Ready", "Advanced Windows & Linux Experience", "Advanced Hardware Repairs and Building Experience", "Customer Service Experience in Telemarketing"]
+
+[[params.homepage.resume.work]]
+  name = "Whakarongorau (Covid Healthline)"
+  role = "Covid Advisor (Work from home role)"
+  duration = "Feb 2022 - Present"
+
+[[params.homepage.resume.work]]
+  name = "Live Broadcast Director (Part-Time)"
+  role = "Broadcast Director (Music Festivals & Commerical Gatherings)"
+  duration = "April 2021 - Present"
+
+[[params.homepage.resume.courses]]
+  name = "Software Development Level 6 Diploma"
+  provider = "Yoobee"
+  duration = "April 2022 - Present"
+
+[params.homepage.social]
+  twitter = "https://twitter.com/"
+  linkedin = ""
+  github = ""
+  medium = ""
+  reddit = ""
+  dribbble = ""
+
+[build]
+  writeStats = true
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
